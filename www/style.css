@@ -1,0 +1,140 @@
+body {
+  font-family:Helvetica, serif;
+}
+
+.mainpanel {
+  opacity:0.75;
+}
+
+.mainpanel:hover {
+  opacity:1;
+}
+
+/* Use defined classes/inheritances to set style for tabPanel tabs */
+.tabbable > .nav > li > a {
+  background-color:#c6dbef; color:#000000; font-size:1.1em; border:1px solid #dadaeb;
+}
+/* Set look of active tab */
+.tabbable > .nav > li[class=active] > a {
+  background-color: #225ea8; color:#ffffff; font-weight:bold;
+  
+}
+
+
+.bold {
+  font-weight:bold;
+}
+
+
+.center {
+  text-align:center;
+}
+
+.padded {
+  padding:10px;
+}
+
+/* Strip below title/subtitle */
+.headerStrip {
+  background-color:#c7e9b4;
+  text-align:center;
+}
+
+/* Absolute panel */
+.panel {
+  padding-left:10px;
+  border:4px solid black;
+}
+
+/* Text instructions for panel */
+.panelIntro {
+  padding:10px; font-weight:bold; font-size:0.95em;
+}
+
+/* Text around input selectors */
+.show {
+  color:#225ea8; font-size:1.05em; font-weight:bold;
+}
+
+/* Heading for tab3 */
+.tab3 {
+  color:#7fcdbb; font-size:1.2em; font-weight:bold;
+}
+
+/* Popup Text */
+.muni {
+  font-size:1.5em; font-weight:bold;
+}
+.popup {
+  font-size:1.2em; font-weight:normal;
+}
+
+
+/* Text on "how" tab" */
+.tab3Bold {
+  color:#111122; font-size:1.05em; font-weight:bold;
+}
+
+.tab3Text {
+  color:#111122; font-size:1.05em; font-weight:normal;
+}
+
+
+/* Output Text */
+.paddingLeft {
+  padding-left:12px;
+}
+/* Name of Municipality or Neighborhood in Output Panel */
+.muniOut {
+  font-weight:bold; font-size:1.5em; 
+  padding-top:8px;
+}
+.tract {
+  font-weight:bold; padding-left:5px; font-style:italic;
+}
+
+
+/* Text in "Help" popup alert */
+.alert {
+  font-size:0.9em; color:#081d58;
+  padding:8px;
+  text-align:left; display:inline-block;
+  line-height:1.4;
+}
+.alertHead {
+  font-size:1.4em; color:#1d91c0; font-weight:bold;
+  text-decoration:underline;
+  text-align:left; display:inline-block;
+}
+
+
+/* Text in "using this info" popups */
+
+.useHead {
+  text-align:left;
+  color:#225ea8;
+  display:block;
+}
+.useSub {
+  text-align:left;
+  color:#41b6c4; font-weight:bold; 
+  text-decoration:underline;
+  display:block;
+}
+.useText {
+  text-align:left;
+  font-family:Verdana;
+  font-size:0.9em;
+  color:#081d58;
+  line-height:1.5;
+  display:inline-block;
+}
+
+/* More resources list */
+.list li {
+  margin-bottom:10px;
+}
+
+.list a {
+  font-weight: bold;
+}
